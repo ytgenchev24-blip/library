@@ -17,7 +17,7 @@ if st.button("Check Book"):
   if user_input.strip() == "":
     st.warning("Please enter a book title.")
   elif user_input in books:
-    st.sucees("The book exists in the database!")
+    st.success("The book exists in the database!")
   else:
     st.error("The book is NOT exists in the database")
     
