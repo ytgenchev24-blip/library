@@ -1,4 +1,4 @@
-import st as streamlit
+import streamlit as st
 
 books = [
   "Chervenata shapchica",
