@@ -1,10 +1,15 @@
 import streamlit as st
 
-books = []
+books = [
+  "Kumcho vulcho i kuma lisa",
+  "Chervenata shapchica",
+  "Tom i Jerry",
+  "Pitur Pan",
+  "Robinzon kruzo"
+]  
 
-new_book = st.text_input("Add new book")
-if st.button("Add")
-st.write(new_book)
+
+
 
 
 st.title("Book checker app")
