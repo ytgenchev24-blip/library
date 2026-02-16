@@ -1,12 +1,11 @@
 import streamlit as st
 
-books = [
-  "Chervenata shapchica",
-  "Kumcho vulcho i kuma lisa",
-  "Tom and Jerry",
-  "Robinzon kruzo",
-  "Pitur pan"
-]
+books = []
+
+new_book = st.text_input("Add new book")
+if st.button("Add")
+st.write(new_book)
+
 
 st.title("Book checker app")
 st.write("Enter the book title to check if it exists in the database.")
@@ -20,7 +19,9 @@ if st.button("Check Book"):
     st.success("The book exists in the database!")
   else:
     st.error("The book is NOT exists in the database")
-    
+
+
+
 
   
   
